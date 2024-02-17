@@ -1,0 +1,280 @@
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    background-color: rgb(242, 248, 252);
+}
+
+.formheading{
+    width: auto;
+    height: 20vh;
+    /* background-color: red; */
+}
+.formheading h1{
+    display: flex;
+    justify-content: center;
+    text-align: centre;
+    font-size: 60px;
+    padding-top: 30px;
+    font-weight: lighter;
+    font-family: 'League Spartan', sans-serif;
+    margin-left: -10px;
+}
+
+
+.contactform{
+    width: auto;
+    height: 70vh;
+    /* background-color: rgb(6, 131, 240); */
+    display: flex;
+    margin-top: 30px;
+    /* justify-content: space-around; */
+}
+.divdetail{
+    width: 40vw;
+    height: 50vh;
+    /* background-color: yellow; */
+ /* margin-top: 20px; */
+    margin-left:  50px;
+}
+
+.title h1{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.title p{
+    margin-bottom: 10px;
+}
+
+.name h1{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+.name p{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.address h1{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+.address p{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.moreabout h1{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+.moreabout p{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+
+.icons ion-icon{
+    color: black;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    transition: .3s ease ;
+}
+
+.icons ion-icon:hover{
+    color: dodgerblue;
+}
+
+.divmessage{
+    width: 35vw;
+    height: 50vh;
+    /* background-color: aqua; */
+    /* margin-top: 30px; */
+}
+
+.text h1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 1.5px;
+}
+
+.fields{
+    /* display: flex; */
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+/* .fieldname{
+    margin-right: 8px;
+} */
+
+.fieldname input[type=text]{
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    font-family: 'League Spartan', sans-serif;
+    width: 32.3vw;
+    margin-bottom: 8px;
+}
+.fieldemail input[type=email]
+{
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    font-family: 'League Spartan', sans-serif;
+    width: 32.3vw;
+    margin-bottom: 8px;
+}
+.field{
+    margin-bottom: 8px;
+}
+
+.field input[type=text]{
+    width: 32.3vw;
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.fieldtextarea textarea{
+    width: 32.3vw;
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    font-family: 'League Spartan', sans-serif;
+    margin-bottom: 10px;
+}
+
+.button-area button[type=submit]{
+    font-size: 18px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: black;
+    background-color: dodgerblue;
+    border: 0.5px solid black;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+}
+
+.button-area button[type=submit]:hover{
+    
+   background-color: white;
+    color: dodgerblue;
+    
+}
+
+@media screen and (max-width: 1100px) {
+    .slidebar {
+        width: 100px;
+    }
+
+    .slidebar nav {
+        /* padding: 30px; */
+        margin: 0px;
+    }
+
+    .slidebar nav li {
+        list-style: none;
+        font-size: 20px;
+        padding: 20px 10px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slidebar {
+        width: auto;
+        height: auto
+    }
+
+    .slidebar ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main {
+        width: auto;
+        height: auto;
+    }
+    .formheading h1{
+        
+        margin-left: -60px;
+    }
+    
+    .contactform {
+        width: auto;
+        height: auto;
+        /* background-color: rgb(6, 131, 240); */
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column-reverse;
+        /* justify-content: space-around; */
+    }
+
+    .divdetail {
+        width: auto;
+        height: auto;
+        /* background-color: yellow; */
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    .divmessage {
+        width: auto;
+        height: auto;
+        margin-left: 50px;
+    }
+
+    .fieldname input[type=text], .fieldemail input[type=email], .field input[type=text], .fieldtextarea textarea {
+        width: 80vw;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+
+
+    .slidebar nav li {
+
+        font-size: 15px;
+        padding: 10px 15px;
+        margin-top: 10px;
+    }
+
+}
+@media screen and (max-width: 450px) {
+
+
+    /* .fieldname input[type=text], .fieldemail input[type=email], .field input[type=text], .fieldtextarea textarea {
+        width: 50vh;
+    } */
+    .slidebar nav li {
+
+        font-size: 10px;
+        padding: 10px 7px;
+        margin-top: 10px;
+    }
+
+}
