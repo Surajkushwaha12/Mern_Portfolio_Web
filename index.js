@@ -23,7 +23,8 @@ hbs.registerPartials(partials_path);
 // ****************** Routing *****************
 // Create the Home Page 
 app.get("", (req, res)=>{
-    res.render("index");
+    //res.render("index");
+    res.send("Hello motherfucker");
 })
 
 
